@@ -1,0 +1,7 @@
+c:\users\felixesqueda\source\repos\AESEncryption\AESEncryption\bin\Debug\AESEncryption.exe.config
+c:\users\felixesqueda\source\repos\AESEncryption\AESEncryption\bin\Debug\AESEncryption.exe
+c:\users\felixesqueda\source\repos\AESEncryption\AESEncryption\bin\Debug\AESEncryption.pdb
+c:\users\felixesqueda\source\repos\AESEncryption\AESEncryption\obj\Debug\AESEncryption.csprojAssemblyReference.cache
+c:\users\felixesqueda\source\repos\AESEncryption\AESEncryption\obj\Debug\AESEncryption.csproj.CoreCompileInputs.cache
+c:\users\felixesqueda\source\repos\AESEncryption\AESEncryption\obj\Debug\AESEncryption.exe
+c:\users\felixesqueda\source\repos\AESEncryption\AESEncryption\obj\Debug\AESEncryption.pdb
