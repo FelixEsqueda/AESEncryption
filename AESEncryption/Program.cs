@@ -10,13 +10,13 @@ namespace AESEncryption
 {
     class Program
     {
-        private static byte[] myKey = Convert.FromBase64String("Ksads234weweBkpuO6sadsdas98D9A8SdhabJSDpwfE=");
+        private static byte[] myKey = Convert.FromBase64String("XCVXCz4e6b23423AOi323uddVPrsjTPO6wpwfEnTdN4=");
 
         public static void Main()
         {
             try
             {
-                string original = "Here is some data to encrypt!";
+                string original = "1231|12312|asdas";
                 using (AesManaged myAes = new AesManaged())
                 {
                     byte[] encrypted = Security.EncryptStringToBytes_Aes(original, myKey, myAes.IV);
@@ -25,6 +25,7 @@ namespace AESEncryption
                     Console.WriteLine("Original:   {0}", original);
                     Console.WriteLine("Encrypted:  {0}", Convert.ToBase64String(encrypted));
                     Console.WriteLine("Round Trip: {0}", roundtrip);
+                    Console.ReadKey();
                 }
             }
             catch (Exception e)
